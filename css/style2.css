@@ -63,7 +63,7 @@ section {
 }
 
 main {
-    background: url('../image/subback.jpg') no-repeat;
+    background: url('image/subback.jpg') no-repeat;
     background-size: cover;
     width: 100%;
     height: 400px;
