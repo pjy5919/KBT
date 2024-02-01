@@ -175,7 +175,7 @@ img{
     width: 380px;
     height: 320px;
     border-radius: 10px;
-    background-color: #001797;
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
 }
 .history li h4{
     padding:10px;

@@ -3,7 +3,7 @@
 .mainview {
   color: #fff;
   width: 1200px;
-  height: 800px;
+  height: 750px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,7 +68,7 @@
 }
 
 .mouseBox {
-  margin: 60px auto;
+  margin: 50px auto;
   color: #fff;
 }
 
