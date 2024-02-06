@@ -1,0 +1,99 @@
+/* @import url(index.css); */
+/* @import url(style1.css); */
+
+h1 {
+    margin: 0;
+}
+.main{
+    height: 150px;
+}
+header {
+    color: #111;
+    background-color: #fff;
+    position: fixed;
+}
+
+.logobox {
+    display: block;
+}
+
+.logobox1 {
+    display: none;
+}
+section {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    background-image: url('../image/sectionbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.newboxs{
+    width: 1200px;
+margin: 0 auto;}
+    .newboxs ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .newboxs ul li{
+        margin: 25px;
+        width: 400px;
+        height: 150px;
+        border: 1.5px solid #001683;
+        border-radius: 10px;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        transition: 0.5s;
+    }
+    .newboxs ul li img{
+        display: inline-block;
+        margin-left:170px;
+        transition: 0.5s;
+    }
+
+    .newboxs ul li:hover{
+        transform: scale(1.1);
+        background: #000d4e;
+        color:#fff;
+        box-shadow: rgba(123, 169, 255, 0.199) 0px 18px 50px -10px;
+    }
+    .newboxs ul li:hover img{
+        margin-left:200px;
+    }
+    .newboxs ul li p{
+        text-align: left;
+    }
+    .newboxs ul li span{
+        font-weight: normal;
+        font-size: 16px;
+        color:#a6a6a6;
+    }
+ 
+
+    .nuewmore{
+        display: flex;
+        justify-content: center;
+        margin: 50px;
+    }
+    .nuewmore button {
+      margin-top: 30px;
+      width: 180px;
+      height: 50px;
+      border-radius: 50px;
+      border: 0;
+      background-color: #001683;
+      color: #Fff;
+      font-size: 16px;
+      font-weight: 800;
+      transition: 0.5s;
+    }
+    
+    .nuewmore button:hover {
+      background-color: #fff;
+      color: #001683;
+      border: 1px solid #001683;
+    }

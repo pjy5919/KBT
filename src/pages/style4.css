@@ -1,0 +1,77 @@
+/* @import url(index.css); */
+
+h1 {
+    margin: 0;
+}
+
+header {
+    color: #111;
+    background-color: #fff;
+    position: fixed;
+}
+
+.logobox {
+    display: block;
+}
+
+.logobox1 {
+    display: none;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    background-image: url('../image/sectionbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section h1 {
+    padding: 30px;
+    font-size: 40px;
+    color: #1428A0;
+}
+
+.awimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.awimg div {
+    width: 100%;
+    max-width: 600px;
+}
+
+.asimage {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.asimage img {
+    border-radius: 20px;
+    width: 80%;
+}
+
+.awimg div p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.awimg div p span {
+    font-size: 24px;
+    font-weight: normal;
+    color: #6a6a6a;
+}
+
+.gunsul img {
+    display: block;
+    margin: 20px auto;
+}
+
+.gunsul h1 {
+    display: block;
+    color: #1428A0;
+}

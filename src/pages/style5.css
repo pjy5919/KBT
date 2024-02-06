@@ -1,0 +1,101 @@
+/* @import url(index.css); */
+
+.main{
+height: 150px;
+margin-bottom: 0 ;
+}
+h1 {
+    margin: 0;
+}
+
+header {
+    color: #111;
+    background-color: #fff;
+    position: fixed;
+   
+}
+.logobox {
+    display: block;
+}
+
+.logobox1 {
+    display: none;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    background-image: url('../image/sectionbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section h1{
+    color:#1428A0;
+    margin: 50px;
+}
+
+.cocserp{
+    width: 1200px;
+    display: block;
+    margin: 100px auto;
+}
+.cocserp img{
+    display: block;
+    margin: 0 auto;
+}
+.cocserp h1,.pmis4cm h1{
+    text-align: left;
+    font-size: 60px;
+    margin-left: 0;
+    margin-bottom: 10px;
+    }
+ .cocserp2{
+    background-color: #f8f8f8;
+    padding: 20px;
+    }
+    .cocstext{
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+    }
+.cocstext h2{
+      display: block;
+      margin: 0 auto;
+    }
+.cocstext p,.cocserp p,.pmis4cm p{
+    color:#6a6a6a;
+    text-align: left;
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 25px;
+}
+.cocserp2 p span{
+    color:#1428A0;
+    font-weight: bold;
+}
+.cocserp2 img{
+    display: block;
+    margin: 0 auto;
+}
+.migration{
+    background-color:#fcfcfc ;
+    margin: 0 auto;
+    padding: 30px;
+}
+.migration img{
+    display: block;
+    width: 900px;
+    margin: 30px auto;
+}
+.pmis4cm{
+    width: 1200px;
+    display: block;
+    margin: 200px auto;
+}
+
+.pmis4cm img{
+    padding-top: 50px;
+    display: block;
+    margin: 0 auto;
+    width: 900px;
+}

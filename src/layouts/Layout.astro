@@ -1,0 +1,76 @@
+---
+import "./index.css";
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
+		<a href="#" class="btn-top"><img src="../up.svg"></a>
+		<slot />
+		<footer>
+			<address>
+				<img src="image/Logo.png" />
+				<ul>
+					<li>한국비즈텍 | 대표이사 신동선</li>
+					<li>
+						Address. (05855)서울특별시 송파구 송파대로 167 A동 415호 |
+						Tel. 02-572-2243
+					</li>
+					<li>Copyright@ KoreaBizTech all rights reserved</li>
+				</ul>
+			</address>
+		</footer>
+	</body>
+	<script is:inline src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script is:inline>
+  AOS.init();
+</script>
+	<script is:inline src="/js/jquery-3.7.0.min.js"></script>
+	<script is:inline src="/js/jquery-ui-1.10.4.custom.min.js"></script>
+	<script is:inline src="/js/index.js"></script>
+</html>
+<style is:global>
+	:root {
+		--accent: 136, 58, 234;
+		--accent-light: 224, 204, 250;
+		--accent-dark: 49, 10, 101;
+		--accent-gradient: linear-gradient(
+			45deg,
+			rgb(var(--accent)),
+			rgb(var(--accent-light)) 30%,
+			white 60%
+		);
+	}
+	html {
+		font-family: system-ui, sans-serif;
+		background: #ffffff;
+		background-size: 224px;
+	}
+	code {
+		font-family:
+			Menlo,
+			Monaco,
+			Lucida Console,
+			Liberation Mono,
+			DejaVu Sans Mono,
+			Bitstream Vera Sans Mono,
+			Courier New,
+			monospace;
+	}
+</style>

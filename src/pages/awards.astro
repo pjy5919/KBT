@@ -1,0 +1,89 @@
+---
+import Layout from "../layouts/Layout.astro";
+import "./style4.css";
+---
+<Layout title="한국비즈텍">
+    <header>
+        <nav>
+            <a href="index.html"
+                ><img src="image/Logo-w.png" alt="로고" class="logobox1" /><img
+                    src="image/Logo.png"
+                    alt="로고"
+                    class="logobox"
+                /></a
+            >
+            <ul class="gnb">
+                <li><a href="/about">회사소개</a></li>
+                <li><a href="/service">사업분야</a></li>
+                <li><a href="/news">회사소식</a></li>
+                <li><a href="/location">찾아오시는길</a></li>
+                <li>
+                    <a
+                        href="https://lumbar-fernleaf-9f6.notion.site/ERP-2e732b8c4301431882663fede547d01b"  target="_blank"
+                        >인재채용 <span class="material-symbols-outlined">
+                            north_east
+                        </span></a
+                    >
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <div class="main">
+        <h1><p><a href="index.html">홈</a> &#183; <a href="/about">회사소개</a> &#183; <a href="/technology"> 수상 및 인증 </a></p>수상 및 인증</h1>
+        <div class="submanu">
+            <ul class="subgnb">
+                <a href="/about"><li>회사개요</li></a>
+                <a href="/technology"><li>핵심기술</li></a>
+                <a href="/awards"><li class="active">수상 및 인증</li></a>
+            </ul>
+        </div>
+    </div>
+    <div id="scroll_btn">
+        <ul>
+          <li class="scb1"><a href="/about"><span class="scroll_hover">회사개요</span><i class="material-icons icon">question_answer</i></a></li>
+          <li class="scb2"><a href="/technology"><span class="scroll_hover">핵심기술</span><i class="material-icons icon">library_books</i></a></li>
+          <li class="scb3"><a href="/awards"><span class="scroll_hover">수상 및 인증</span><i class="material-icons icon">import_contacts</i></a></li>
+        </ul>
+      </div>
+    <section>
+        <h1>한국비즈텍 저작권</h1>
+        <div class="awimg aw1" data-aos="fade-up" data-aos-duration="1500">
+            <div class="asimage">
+            <img src="../image/cocs.jpg" alt="cocs">
+            </div>
+            <div>
+                <p>COC'S/ERP<br>
+                    <span>1994.05.03</span>
+                </p>
+            </div>
+        </div>
+        <div class="awimg aw2" data-aos="fade-up" data-aos-duration="1500">
+            <div>
+                <p>PMIS 4CM<br>
+                    <span>2005.10.12</span>
+                </p>
+            </div>
+            <div class="asimage">
+                <img src="../image/pmis4cm.jpg" alt="pmis">
+            </div>
+
+        </div>
+        <div class="awimg aw3" data-aos="fade-up" data-aos-duration="1500">
+            <div class="asimage">
+                <img src="../image/webvision.jpg" alt="webvision">
+            </div>
+            <div>
+                <p>WEBVISION<br>
+                    <span>2005.1.10</span>
+                </p>
+            </div>
+        </div>
+        <div class="gunsul" data-aos="fade-up" data-aos-duration="1500">
+            <h1>[대한민국 건설문화대상]<br>
+            건설정보화부분 건설교통부장관 표창 수상</h1>
+            <img src="../image/gunsul.jpg" alt="장관수상">
+        </div>
+    </section>
+
+    </Layout>

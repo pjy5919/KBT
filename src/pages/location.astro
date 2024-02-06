@@ -1,0 +1,60 @@
+---
+import Layout from "../layouts/Layout.astro";
+import "./style6.css";
+---
+<Layout title="한국비즈텍">
+
+    <header>
+        <nav>
+			<a href="index.html"><img src="image/Logo-w.png" alt="로고" class="logobox1" /><img
+                    src="image/Logo.png"
+                    alt="로고"
+                    class="logobox"
+                /></a
+            >
+            <ul class="gnb">
+                <li><a href="/about">회사소개</a></li>
+                <li><a href="/service">사업분야</a></li>
+                <li><a href="/news">회사소식</a></li>
+                <li><a href="/location">찾아오시는길</a></li>
+                <li>
+                    <a
+                        href="https://lumbar-fernleaf-9f6.notion.site/ERP-2e732b8c4301431882663fede547d01b" target="_blank"
+                        >인재채용 <span class="material-symbols-outlined">
+                            north_east
+                        </span></a
+                    >
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main">
+        <h1><p><a href="index.html">홈</a> &#183; <a href="/service">찾아오시는길</a></p>찾아오시는길</h1>
+        </div>
+    <section>
+        <div id="kakakomap" data-aos="fade-up">
+            <h1>KoreaBizTech office</h1>
+            <p>
+                함께 일하고 경험하고 성장하는 기업<br>
+                (주)한국비즈텍은 건설산업에 필요한 종합건설ERP 솔루션(COC'S/ERP)를
+                개발하는 회사입니다.
+            </p>
+            <br>
+            <span>서울 송파구 송파대로 167 A동 415호<br>
+            Tel.02-572-2243</span>
+            <br>
+            <div class="mapsite">
+            <div id="daumRoughmapContainer1706776152584" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+            </div>
+            <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+            <script charset="UTF-8">
+              new daum.roughmap.Lander({
+             "timestamp" : "1706776152584",
+             "key" : "2hx9b",
+             "mapWidth" : "1200",
+            "mapHeight" : "400"
+            }).render();
+            </script>
+        </div>
+    </section>
+    </Layout>

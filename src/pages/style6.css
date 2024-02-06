@@ -1,0 +1,46 @@
+/* @import url(index.css); */
+/* @import url(style1.css); */
+
+h1 {
+    margin: 0;
+}
+.main{
+    height: 150px;
+}
+header {
+    color: #111;
+    background-color: #fff;
+    position: fixed;
+}
+
+.logobox {
+    display: block;
+}
+
+.logobox1 {
+    display: none;
+}
+section {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    background-image: url('../image/sectionbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+section h1{
+    color:#1428A0;
+    margin: 50px;}
+#kakakomap{
+    width: 1200px;
+    display: block;
+    margin: 50px auto;
+}
+
+#kakakomap span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.mapsite{
+    margin-top: 50px;
+}
