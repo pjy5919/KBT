@@ -75,3 +75,29 @@ section h1 {
     display: block;
     color: #1428A0;
 }
+
+@media only screen and (max-width: 768px) {
+    .main h1 {font-size: 55px;}
+    section{
+        padding-top: 50px;
+    }
+    section h1 {
+        font-size: 32px;
+        padding: 20px;
+    }
+
+    .awimg div p {
+        font-size: 24px;
+    }
+
+    .awimg div p span {
+        font-size: 18px;
+    }
+
+    .gunsul img {
+        margin: 10px auto;
+        width: 100%;
+    }
+
+    
+}

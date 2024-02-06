@@ -251,3 +251,39 @@ section img {
 .servicetext div:nth-child(6) {
   background-color: #7f9fe2;
 }
+
+@media only screen and (max-width: 768px) {
+  .contsub1{
+    display: none;
+  }
+  #tabmenu {
+display: none;
+  }
+
+  .servicetext div {
+    width: 75%;
+  }
+  .servicetext img{
+    margin-left: 15%;
+  }  
+
+  .content2 h1>span{
+    font-size: 1.00em;
+  }
+  h1{
+    font-size: 1.00em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #tabmenu {
+    display: none;
+      }
+  .servicetext div {
+    width: 75%;
+  }
+  .servicetext img{
+    margin-left: 15%;
+  }
+
+}
